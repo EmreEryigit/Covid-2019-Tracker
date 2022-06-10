@@ -6,12 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.card.card-body {
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgb(31, 164, 208);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
