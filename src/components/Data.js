@@ -63,14 +63,7 @@ function Data() {
           <h6>Last updated: {data.lastUpdate.substring(0, 10)}</h6>
         </div>
 
-        <div
-          className="card card-body mx-2 my-5 "
-          style={{ width: "15rem", height: "12rem", backgroundColor: "green" }}
-        >
-          <h5 className="card-title"> Recovered:</h5>
-          <p className="card-text">{data.recovered.value}</p>
-          <h6>Last updated: {data.lastUpdate.substring(0, 10)}</h6>
-        </div>
+      
       </div>
       <DropDown />
       <div style={{ width: "50rem" }} className="mx-auto">
